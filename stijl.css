@@ -29,11 +29,35 @@ body {
   left: 0px;
 }
 
+#sidebar h1 {
+  color: white;
+  font-size: 2.5em;
+  color: rgba(230,230,230,0.9);
+  padding: 15px 40px;
+}
+
+#sidebar img {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 60%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#sidebar ul li a {
+  color: rgba(230,230,230,0.9);
+  text-decoration: none;
+  padding: 15px 40px;
+  border-bottom: 1px solid rgba(100,100,100,0.3);
+  font-size: 1.2em;
+}
+
 #sidebar ul li {
   color: rgba(230,230,230,0.9);
   list-style: none;
   padding: 15px 40px;
-  border-bottom: 1px solid rgba(100,100,100,0.3);
   font-size: 2.5em;
 }
 
@@ -60,13 +84,6 @@ body {
 #sidebar .toggle-btn span:nth-child(3) {
   width: 40px;
   height: 30px;
-}
-
-h1 {
-  color: white;
-  font-size: 2.5em;
-  color: rgba(230,230,230,0.9);
-  padding: 15px 40px;
 }
 
 /* main */
