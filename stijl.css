@@ -18,10 +18,10 @@ body {
 
 #sidebar {
   position: fixed;
-  width: 500px;
+  width: 780px;
   height: 100%;
   background-color: #151719;
-  left: -500px;
+  left: -780px;
   transition: all 400ms linear;
 }
 
@@ -63,7 +63,7 @@ body {
 
 #sidebar .toggle-btn {
   position: absolute;
-  left: 540px;
+  left: 820px;
   top: 30px;
   cursor: pointer;
 }
