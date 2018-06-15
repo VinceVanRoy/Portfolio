@@ -18,10 +18,10 @@ body {
 
 #sidebar {
   position: fixed;
-  width: 780px;
+  width: 780px; /* aanpassen voor sidebar breedte*/
   height: 100%;
   background-color: #151719;
-  left: -780px;
+  left: -780px; /* aanpassen voor sidebar breedte*/
   transition: all 400ms linear;
 }
 
@@ -31,9 +31,8 @@ body {
 
 #sidebar h1 {
   color: white;
-  font-size: 2.5em;
-  color: rgba(230,230,230,0.9);
-  padding: 15px 40px;
+  font-size: 5em;
+  padding: 30px 80px;
 }
 
 #sidebar img {
@@ -42,6 +41,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   border-radius: 60%;
+  border: 20px solid rgba(230,230,230,0.9);
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -51,19 +51,18 @@ body {
   text-decoration: none;
   padding: 15px 40px;
   border-bottom: 1px solid rgba(100,100,100,0.3);
-  font-size: 1.2em;
+  font-size: 3em;
 }
 
 #sidebar ul li {
   color: rgba(230,230,230,0.9);
   list-style: none;
   padding: 15px 40px;
-  font-size: 2.5em;
 }
 
 #sidebar .toggle-btn {
   position: absolute;
-  left: 820px;
+  left: 820px; /* aanpassen voor sidebar breedte*/
   top: 30px;
   cursor: pointer;
 }
