@@ -45,8 +45,8 @@ body {
 
 #sidebar .toggle-btn span {
   display: block;
-  width: 30px;
-  height: 5px;
+  width: 50px;
+  height: 15px;
   background-color: #151719;
   margin: 5px 0px;
 }
@@ -63,10 +63,6 @@ body {
 
 
 /* footer */
-
-footer {
-  margin-top: 20px;
-}
 
 .meld {
       background-color: #6bc2be;
