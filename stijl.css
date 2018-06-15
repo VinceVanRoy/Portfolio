@@ -18,10 +18,10 @@ body {
 
 #sidebar {
   position: fixed;
-  width: 300px;
+  width: 500px;
   height: 100%;
   background-color: #151719;
-  left: -300px;
+  left: -500px;
   transition: all 400ms linear;
 }
 
@@ -32,13 +32,14 @@ body {
 #sidebar ul li {
   color: rgba(230,230,230,0.9);
   list-style: none;
-  padding: 15px 20px;
+  padding: 15px 40px;
   border-bottom: 1px solid rgba(100,100,100,0.3);
+  font-size: 2.5em;
 }
 
 #sidebar .toggle-btn {
   position: absolute;
-  left: 340px;
+  left: 540px;
   top: 30px;
   cursor: pointer;
 }
@@ -49,6 +50,13 @@ body {
   height: 30px;
   background-color: #151719;
   margin: 15px 0px;
+}
+
+h1 {
+  color: white;
+  font-size: 2.5em;
+  color: rgba(230,230,230,0.9);
+  padding: 15px 40px;
 }
 
 /* main */
