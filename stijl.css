@@ -52,6 +52,11 @@ body {
   margin: 15px 0px;
 }
 
+#sidebar .toggle-btn span:nth-child(2) {
+  width: 60px;
+  height: 30px;
+}
+
 h1 {
   color: white;
   font-size: 2.5em;
