@@ -45,10 +45,10 @@ body {
 
 #sidebar .toggle-btn span {
   display: block;
-  width: 80px;
-  height: 20px;
+  width: 120px;
+  height: 30px;
   background-color: #151719;
-  margin: 5px 0px;
+  margin: 15px 0px;
 }
 
 /* main */
