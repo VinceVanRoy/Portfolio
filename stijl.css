@@ -31,10 +31,20 @@ body {
 
 #sidebar h1 {
   color: white;
-  font-size: 6em;
-  padding: 30px 80px;
+  font-size: 4em;
+  padding: 40px 0px 20px 0px;
   font-weight: bold;
   text-transform: uppercase;
+  text-align: center;
+}
+
+#sidebar p {
+  color: rgba(230,230,230,0.9);
+  font-size: 2em;
+  padding: 10px 0px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 #sidebar img {
@@ -53,13 +63,19 @@ body {
   text-decoration: none;
   padding: 15px 40px;
   border-bottom: 2px solid rgba(100,100,100,0.3);
-  font-size: 4em;
+  font-size: 3.5em;
 }
 
 #sidebar ul li {
   color: rgba(230,230,230,0.9);
   list-style: none;
   padding: 15px 40px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#sidebar ul li:nth-child(1) {
+  margin-top: 100px;
 }
 
 #sidebar .toggle-btn {
