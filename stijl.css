@@ -104,20 +104,17 @@ body {
   height: 30px;
 } */
 
-header h2 {
-  font-size: 5.5em;
-  font-weight: 700;
-  width: 700px;
-  text-align: right;
-  padding-top: 10px;
-  padding-right: 50px;
-}
-
-
-
 /* main */
 
-
+main h2 {
+  font-size: 5.5em;
+  font-weight: 700;
+  width: 600px;
+  margin-left: 100px;
+  padding-top: 10px;
+  padding-right: 20px;
+  color: #151719;
+}
 
 
 
