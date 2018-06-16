@@ -105,12 +105,15 @@ body {
 } */
 
 header h2 {
-  font-size: 4em;
+  font-size: 5.5em;
+  font-weight: 700;
   width: 700px;
   text-align: right;
-  padding-top: 30px;
-  padding-right: 30px;
+  padding-top: 10px;
+  padding-right: 50px;
 }
+
+
 
 /* main */
 
