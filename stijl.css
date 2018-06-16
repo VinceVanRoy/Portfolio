@@ -92,7 +92,9 @@ body {
   margin: 15px 0px;
 }
 
-#sidebar .toggle-btn span:nth-child(2) {
+/* Voor het aanpassen van de hamburger menu */
+
+/*#sidebar .toggle-btn span:nth-child(2) {
   width: 80px;
   height: 30px;
 }
@@ -100,7 +102,7 @@ body {
 #sidebar .toggle-btn span:nth-child(3) {
   width: 40px;
   height: 30px;
-}
+} */
 
 /* main */
 
