@@ -1,124 +1,52 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  font-family: 'Roboto', sans-serif;
-}
-
-body {
-  max-width: 300px;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 1em;
-  line-height: 1.5;
-  font-family: 'Roboto', sans-serif;
-  color: RGBA(22, 40, 74, 1.00);
-  background-color: #fff;
-  position: relative;
-}
-
-#sidebar {
-  position: fixed;
-  width: 780px; /* aanpassen voor sidebar breedte*/
+html, body {
+  width: 100%;
   height: 100%;
-  background-color: #151719;
-  left: -780px; /* aanpassen voor sidebar breedte*/
-  transition: all 400ms linear;
+  margin: 0;
 }
 
-#sidebar.active {
-  left: 0px;
+html {
+  font-family: 'Roboto', sans-serif;
 }
 
-#sidebar h1 {
-  color: white;
-  font-size: 4.5em;
-  padding: 40px 0px 5px 0px;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: center;
+
+.nav {
+  border-bottom: 1px solid #EAEAEB;
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
 }
 
-#sidebar p {
-  color: rgba(230,230,230,0.9);
-  font-size: 2em;
-  padding: 0px 0px 0px 0px;
-  font-weight: 300;
-  text-align: center;
+.menu {
+  margin: 0 30px 0 0;
 }
 
-#sidebar img {
-  display: block;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 60%;
-  border: 20px solid rgba(230,230,230,0.9);
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-#sidebar ul li a {
-  color: rgba(230,230,230,0.9);
+.menu a {
+  background-color: white;
+  clear: right;
   text-decoration: none;
-  padding: 15px 40px;
-  border-bottom: 2px solid rgba(100,100,100,0.3);
-  font-size: 3.5em;
+  color: gray;
+  margin: 0 10px;
+  line-height: 70px;;
 }
 
-#sidebar ul li {
-  color: rgba(230,230,230,0.9);
-  list-style: none;
-  padding: 15px 40px;
-  text-align: center;
-  margin-top: 40px;
+span {
+  color: #54D17A;
 }
 
-#sidebar ul li:nth-child(1) {
-  margin-top: 120px;
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  float: right;
 }
 
-#sidebar .toggle-btn {
-  position: absolute;
-  left: 820px; /* aanpassen voor sidebar breedte*/
-  top: 30px;
-  cursor: pointer;
+#toggle {
+  display: none;
 }
-
-#sidebar .toggle-btn span {
-  display: block;
-  width: 120px;
-  height: 30px;
-  background-color: #151719;
-  margin: 15px 0px;
-}
-
-/* Voor het aanpassen van de hamburger menu */
-
-/*#sidebar .toggle-btn span:nth-child(2) {
-  width: 80px;
-  height: 30px;
-}
-
-#sidebar .toggle-btn span:nth-child(3) {
-  width: 40px;
-  height: 30px;
-} */
 
 /* main */
-
-main h2 {
-  font-size: 4em;
-  font-weight: 700;
-  width: 600px;
-  margin-left: 10px;
-  padding-top: 10px;
-  padding-right: 10px;
-  color: #151719;
-}
-
-
-
-
 
 
 
@@ -208,10 +136,30 @@ main h2 {
 .app a {
       color: RGBA(144, 152, 168, 1.00);
 }
-
 @supports (grid-area: auto) {
-  @media (min-width: 400px) {
+  @media only screen and (max-width: 500px) {
+    label {
+      display: block;
+      cursor: pointer;
+    }
+
+    .menu {
+      text-align: center;
+      width: 100%;
+      display: none;
+    }
+
+    .menu a {
+      display: block;
+      border-bottom: 1px solid #EAEAEB;
+      margin: 0;
+    }
+
+    #toggle:checked + .menu {
+      display: block;
+    }
   }
+
   @media (min-width: 1024px) {
   }
 }
