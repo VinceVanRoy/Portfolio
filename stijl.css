@@ -59,6 +59,10 @@ h1 {
   font-weight: 300;
 }
 
+.vet {
+  font-weight: 500;
+}
+
 /* main */
 
 
@@ -150,7 +154,7 @@ h1 {
       color: RGBA(144, 152, 168, 1.00);
 }
 @supports (grid-area: auto) {
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 600px) {
     label {
       display: block;
       cursor: pointer;
