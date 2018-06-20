@@ -69,9 +69,10 @@ h1 {
 h2 {
   text-align: center;
   font-size: 17vw;
-  margin: 20px;
+  height: 40vw;
+  margin: 80px 20px 0px 20px;
   font-weight: 700;
-  background: url(try.jpg) no-repeat;
+  background: url(try.jpg) no-repeat center center;
   background-size: cover;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
