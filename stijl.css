@@ -68,14 +68,16 @@ h1 {
 
 h2 {
   text-align: center;
-  font-size: 4em;
+  font-size: 17vw;
   margin: 20px;
   font-weight: 700;
-  background: url(prof.jpg) no-repeat;
+  background: url(try.jpg) no-repeat;
   background-size: cover;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
+
+
 
 /* footer */
 
@@ -192,13 +194,13 @@ h2 {
 
   @media (min-width: 800px) {
     h2 {
-      font-size: 10em;
+      font-size: ;
     }
   }
 
   @media (min-width: 1024px) {
     h2 {
-      font-size: 18em;
+      font-size: ;
     }
   }
 }
