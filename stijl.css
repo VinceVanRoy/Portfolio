@@ -30,6 +30,11 @@ html {
   color: gray;
   margin: 0 10px;
   line-height: 70px;
+  cursor: pointer;
+}
+
+a:active {
+    background-color: yellow;
 }
 
 span {
@@ -110,14 +115,14 @@ main p {
 /* footer */
 
 .meld {
-      background-color: #184096;
+      background-color: #3AAFA9;
       color: RGBA(182, 198, 230, 1.00);
       padding: 15px;
       text-align: center;
 }
 
 .meld h3 {
-      color: gray;
+      color: black;
       font-weight: bold;
       margin-bottom: 10px;
       font-size: 1.2em;
@@ -176,7 +181,7 @@ main p {
 /* einde social media */
 
 .app {
-      background-color: black;
+      background-color: #17252A;
       color: RGBA(144, 152, 168, 1.00);
       padding: 15px 15px 30px 15px;
       position: relative;
